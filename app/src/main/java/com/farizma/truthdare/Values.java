@@ -2,7 +2,40 @@ package com.farizma.truthdare;
 
 public class Values {
 
-    String[] truths = new String[]{
+    String[] truthseasy = new String[]{
+            "What does your dream boy or girl look like?",
+            "Would you rather live with no internet or no A/C or heating?",
+            "If you could go back in time in erase one thing you said or did, what would it be?",
+            "Have you ever waved at someone thinking they saw you when really they didn't? What did you do when you realized it?",
+            "Describe the strangest dream you've ever had. Did you like it?",
+            "The world ends next week, and you can do anything you want (even if it's illegal). What would you do?",
+            "How far would you go to land the guy or girl of your dreams?",
+            "What is the most childish thing that you still do?"
+    };
+
+    String[] truthsmedium = new String[]{
+            "What does your dream boy or girl look like?",
+            "Would you rather live with no internet or no A/C or heating?",
+            "If you could go back in time in erase one thing you said or did, what would it be?",
+            "Have you ever waved at someone thinking they saw you when really they didn't? What did you do when you realized it?",
+            "Describe the strangest dream you've ever had. Did you like it?",
+            "The world ends next week, and you can do anything you want (even if it's illegal). What would you do?",
+            "How far would you go to land the guy or girl of your dreams?",
+            "What is the most childish thing that you still do?"
+    };
+
+    String[] truthshard = new String[]{
+            "What does your dream boy or girl look like?",
+            "Would you rather live with no internet or no A/C or heating?",
+            "If you could go back in time in erase one thing you said or did, what would it be?",
+            "Have you ever waved at someone thinking they saw you when really they didn't? What did you do when you realized it?",
+            "Describe the strangest dream you've ever had. Did you like it?",
+            "The world ends next week, and you can do anything you want (even if it's illegal). What would you do?",
+            "How far would you go to land the guy or girl of your dreams?",
+            "What is the most childish thing that you still do?"
+    };
+
+    String[] truthsDefault = new String[]{
             "What does your dream boy or girl look like?",
             "Would you rather live with no internet or no A/C or heating?",
             "If you could go back in time in erase one thing you said or did, what would it be?",
@@ -23,5 +56,18 @@ public class Values {
             "Dig through the trash and name everything you find.",
             "Call a NY-style pizza place and ask them what the difference is between NY pizza and “real” pizza.",
             "Take a selfie with the toilet and post it online."
+    };
+
+    String[] dareseasy = new String[]{
+            "Easypisy",
+            "Easy v2"
+    };
+
+    String[] daremedium = new String[]{
+            "Medium longue text AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA TU PUES debjkdzghqjkhdghqziuhdghuikzyqsgdukygzuykdgzqukydgqzkuyjdgqzuiygdqzuihdziquhduiklqzhdqziujhdiluqzhdilkqzhdlqikzuhdiqzu ? "
+    };
+
+    String[] darehard = new String[]{
+            "Hard"
     };
 }

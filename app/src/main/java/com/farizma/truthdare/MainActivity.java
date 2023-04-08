@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        final String spicy = (String) getIntent().getSerializableExtra("spicy");
         setContentView(R.layout.activity_main);
 
         btn = findViewById(R.id.button);
@@ -33,14 +34,14 @@ public class MainActivity extends AppCompatActivity {
         truthBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), TruthActivity.class));
+                startActivity((new Intent(getApplicationContext(), TruthAleActivity.class).putExtra("spicy",spicy)));
             }
         });
 
         dareBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), DareActivity.class));
+                startActivity((new Intent(getApplicationContext(), DareAleActivity.class).putExtra("spicy",spicy)));
             }
         });
     }

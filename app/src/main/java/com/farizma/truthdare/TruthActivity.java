@@ -58,8 +58,8 @@ public class TruthActivity extends AppCompatActivity {
 
     public void populateDefaultData() {
         Values values = new Values();
-        for(int i=0; i<values.truths.length; i++)
-            truthList.add(new TruthItem(values.truths[i]));
+        for(int i=0; i<values.truthsDefault.length; i++)
+            truthList.add(new TruthItem(values.truthsDefault[i]));
     }
 
     public void populateUserData(String jsonTruths) {
